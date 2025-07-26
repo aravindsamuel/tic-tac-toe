@@ -361,9 +361,27 @@ ol {
   #game-board button{
     width: 70px;
     height: 70px;
+    font-size: 3rem;
+    padding: 0.5rem;
   }
   .highlight-player{
     display: flex;
     flex-wrap: wrap;
+  }
+  #players{
+    justify-content: start;
+  }
+  #players li {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+  .player-name{
+    width: 100%;
+  }
+  .player{
+    display: flex;
+    gap: 10px;
+    align-items: center;
   }
 }
